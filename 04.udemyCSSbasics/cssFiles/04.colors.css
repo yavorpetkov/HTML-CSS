@@ -1,0 +1,14 @@
+h1 {
+  /* Color by Name */
+  color: tomato;
+}
+
+h2 {
+  /* Color by RGB */
+  color: rgb(44, 165, 42);
+}
+
+h3 {
+  /* Color by Hex */
+  color: #f6cabf;
+}
