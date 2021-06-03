@@ -1,0 +1,37 @@
+
+#container{
+  background: #555;
+  display: flex;
+  flex-wrap: wrap;
+  /* align items horizontal */
+  justify-content: space-evenly;
+
+  height: 600px;
+  /* align items vertical (must have height) */
+  align-items: baseline;
+
+  /* align items vertical where there is space */
+
+
+  /* align-content: space-between; */
+}
+.item-1{
+order: 3;
+}
+.item-2{
+/* align single item vertical */
+  align-self: center;
+  order: 2;
+}
+.item-3{
+order: 1;
+}
+
+.item{
+  background: #f4f4f4;
+  border: #ccc solid 1px;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.5rem;
+  flex-basis: 200px;
+}
