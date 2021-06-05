@@ -1,0 +1,35 @@
+a{
+  display: block;
+}
+
+
+
+
+
+/* DIRECT CHILD */
+/* not nested */
+div > p{
+  background: #ddd;
+}
+
+/* DIRECTLY AFTER (THE DIV)*/
+/* on the same line */
+div + p{
+  background: #333;
+  color: #fff;
+}
+
+
+/* BY ATTRIBUTE */
+a[target]{
+  background: #ff0000;
+  color: #fff;
+}
+
+
+/* SPECIFIC ATTRIBUTE VALUES */
+input[type='email'],
+input[type='text']{
+  width: 100%;
+  margin-bottom: 5px;
+}
